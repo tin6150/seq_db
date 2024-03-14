@@ -44,6 +44,8 @@ singularity pull --name tin6150_perf_tools_latest.sif docker://ghcr.io/tin6150/p
 singularity pull --name abricate_jgrg.sif docker://ghcr.io/tin6150/abricate:jgrg
 
 docker pull ghcr.io/tin6150/perf_tools:master
+docker pull ghcr.io/tin6150/seq_db:main
+
 docker pull ghcr.io/tin6150/abricate:tin6150-dockerizing    # xx
 docker pull ghcr.io/tin6150/abricate:jgrg
 docker pull ghcr.io/tin6150/abricate:latest
